@@ -2,6 +2,12 @@ name: "GitHub Action with TypeScipt"
 author: "CY (Chen Yang)"
 description: "Test GitHub Action with TypeScript"
 
+inputs:
+  name:
+    description: "Say Hello"
+    required: false
+    default: "Voyager"
+
 runs:
   using: "node16"
   main: "dist/index.js"
