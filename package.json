@@ -1,0 +1,17 @@
+{
+  "name": "gh-actions-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cyishere/gh-actions-ts.git",
+  "author": "Chen Yang <cyishere@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}

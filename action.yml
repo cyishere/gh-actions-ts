@@ -1,0 +1,7 @@
+name: "GitHub Action with TypeScipt"
+author: "CY (Chen Yang)"
+description: "Test GitHub Action with TypeScript"
+
+runs:
+  using: "node16"
+  main: "dist/index.js"
